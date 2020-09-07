@@ -1,0 +1,13 @@
+package com.alice.demo;
+
+import com.alice.entity.Movement;
+import com.alice.entity.Robot;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		Robot robot = new Movement(); 
+		RobotConsole console = new RobotConsole(robot);
+		console.print();
+	}
+}

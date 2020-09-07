@@ -1,0 +1,41 @@
+package com.alice.entity;
+
+public class Movement implements Robot {
+	
+	private String doAttack;
+	private String forward;
+	private String backward;
+	private String right;
+	private String left;
+
+	@Override
+	public String attack() {
+		String attack = "I'm attacking an enemy!";
+		return attack;
+	}
+
+	@Override
+	public String moveForward() {
+		String forward = "I'm moving forward"; 
+		return forward;
+	}
+
+	@Override
+	public String moveBackward() {
+		String backward = "I'm moving backword";
+		return backward;
+	}
+
+	@Override
+	public String turnRight() {
+		String right = "I'm turning right";
+		return right;
+	}
+
+	@Override
+	public String turnLeft() {
+		String left = "I'm turning left";
+		return left;
+	}
+
+}

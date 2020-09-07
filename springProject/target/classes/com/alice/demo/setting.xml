@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- Robot robot = new Movement();  -->
+<bean id="robot" class="com.alice.entity.Movement">
+	<property name="attackNum" value="10000" />
+	<property name="forwardNum" value="5" />
+	<property name="backwardNum" value="0" />
+</bean>
+
+<!-- RobotConsole console = new DoRobotConsole(robot); -->
+<bean id="console" class="com.alice.ui.DoRobotConsole">
+<!-- console.setRobot(robot); -->
+	<property name="robot" ref="robot"></property>
+</bean>
+
+
+
+
+</beans>

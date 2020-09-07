@@ -1,0 +1,41 @@
+package com.alice.entity;
+
+public class Movement implements Robot {
+	
+	private String attack;
+	private String forward;
+	private String backward;
+	private String right;
+	private String left;
+
+	@Override
+	public String attack() {
+		String att = System.out.println("I'm attacking an enemy!");
+		return att;
+	}
+
+	@Override
+	public String moveForward() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String moveBackward() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String turnRight() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String turnLeft() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.alice.ui;
+
+public interface RobotConsole {
+
+}

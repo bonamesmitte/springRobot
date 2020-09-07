@@ -1,0 +1,21 @@
+package com.alice.ui;
+
+import com.alice.entity.Robot;
+
+public class InlineRobotConsole implements RobotConsole {
+
+	private Robot robot;
+	
+	
+	
+	public InlineRobotConsole(Robot robot) {
+		this.robot = robot;
+	}
+
+	@Override
+	public void print() {
+		System.out.println(robot.moveForward(), robot.moveBackward(), robot.turnRight(), robot.turnLeft(), robot.attack()};
+
+	}
+
+

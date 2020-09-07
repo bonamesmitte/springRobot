@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.alice.ui.InlineRobotConsole.java&apos; to &apos;DoRobotConsole.java&apos;&#x0A;- Original project: &apos;springProject&apos;&#x0A;- Original element: &apos;com.alice.ui.InlineRobotConsole.java&apos;&#x0A;- Renamed element: &apos;com.alice.ui.DoRobotConsole.java&apos;" description="Rename compilation unit &apos;InlineRobotConsole.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.alice.ui{InlineRobotConsole.java" name="DoRobotConsole.java" references="false" stamp="1599453372925" version="1.0"/>
+</session>

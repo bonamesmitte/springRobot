@@ -1,0 +1,13 @@
+package com.alice.ui;
+
+public class InlineRobotConsole implements RobotConsole {
+
+	private Robot robot;
+	
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
